@@ -10,9 +10,10 @@ def conta_palavras_unicas(frase):
     conjunto_palavras = set(palavras)
     
     return len(conjunto_palavras)
-frase = "Inteli é a melhor faculdade de tecnologia da América Latina"
+frase = "Inteli é a melhor faculdade de Tecnologia da América Latina"
 
-print(conta_palavras_unicas(frase)) # Saída: 17
+print(conta_palavras_unicas(frase)) 
+
 
 
 
